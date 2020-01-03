@@ -2,4 +2,20 @@
     width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    /* MDN:  Scales the image as large as possible without stretching the image. If the proportions of the image differ from the element, it is cropped either vertically or horizontally so that no empty space remains.*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.info-1 {
+    background-image: url("./assets/task2-bg.jpeg");
+}
+
+.info-2 {
+    background-image: url("./assets/task2-bg1.jpeg");
+}
+
+.info-3 {
+    background-image: url("./assets/task2-bg2.jpg");
 }
