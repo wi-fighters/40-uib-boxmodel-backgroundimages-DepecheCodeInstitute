@@ -5,6 +5,11 @@ body {
 
 header {
     height: 30%;
+    background-image: url("./assets/background.jpg");
+    background-size: contain;
+    /* MDN: scales the image as large as possible without cropping or stretching */
+    background-repeat: repeat;
+    /* this actually repeats the image in its original size to fill the available div */
 }
 
 h1 {
