@@ -6,6 +6,10 @@
     /* MDN:  Scales the image as large as possible without stretching the image. If the proportions of the image differ from the element, it is cropped either vertically or horizontally so that no empty space remains.*/
     background-repeat: no-repeat;
     background-position: bottom;
+    padding: 1em;
+    padding-top: 1.25em;
+    display: inline-block;
+    border-radius: 0.5em;
 }
 
 .info-1 {
